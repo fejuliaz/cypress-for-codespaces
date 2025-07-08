@@ -1,0 +1,16 @@
+{
+  "name": "cypress-for-codespaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "cypress:run": "xvfb-run --auto-servernum -- npx cypress run",
+  "cypress:open": "xvfb-run --auto-servernum -- npx cypress open"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}
