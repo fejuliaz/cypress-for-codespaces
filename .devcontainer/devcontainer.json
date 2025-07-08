@@ -1,15 +1,16 @@
 {
   "name": "Cypress Codespace",
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:1": {},
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
-    }
+  "build": {
+    "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xvfb libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libnss3 libxss1 libasound2 libxtst6 xauth dbus-x11",
   "customizations": {
     "vscode": {
-      "extensions": ["cypress.cypress"]
+      "extensions": [
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
   }
 }
