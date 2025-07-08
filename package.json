@@ -5,7 +5,7 @@
   "main": "index.js",
  "scripts": {
   "cypress:run": "xvfb-run --auto-servernum -- npx cypress run",
-  "cypress:open": "xvfb-run --auto-servernum -- npx cypress open"
+  "cypress:run:file": "xvfb-run --auto-servernum -- npx cypress run --spec"
 },
   "keywords": [],
   "author": "",
