@@ -12,12 +12,12 @@ npm install
 ### Running Tests
 
 Run all tests headlessly (recommended in Codespaces):
-npm run cypress:run
+--npm run cypress:run
 
 Run a specific test file
 You can run a single test file by specifying the path after the script:
 
-npm run cypress:run:file -- cypress/e2e/your-test-file.cy.js
+---npm run cypress:run:file -- cypress/e2e/your-test-file.cy.js
 Replace cypress/e2e/your-test-file.cy.js with the relative path to your test file.
 
 #### Notes
